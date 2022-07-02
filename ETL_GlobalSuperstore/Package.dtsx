@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="9"
-  DTS:VersionGUID="{01611336-BB14-41DA-84CB-5BAA6D3CCEBE}">
+  DTS:VersionBuild="17"
+  DTS:VersionGUID="{6A394320-8227-4CF3-AB88-D462DB3BDE7B}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -29,7 +29,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAQmETdYftT0uTJj9ZR/NH5AAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADbNUDS0Ft8alG528UQ4YdFb5cePBI+O7YHS69so8/YpwAAAAAOgAAAAAIAACAAAACzfUh+QM24bohgS7JF87TAxaVSewEoS6EIRC3rYOMyeyAAAAAfZV33CraY+KEe2tAOGJNvbKI0555q7C4rN+V3VOeTGUAAAADStnVqRIRlIylN1Gbl9ooEVFuIbfwZMvdXzKd3sFod2nuEXHD0QLffzfAHpvm7JgJ2UDCsdolCgY3gqKn0zafz</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAQmETdYftT0uTJj9ZR/NH5AAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAALs7QNOjsBzEymBULXnxUTFfIERVXnCfNgeQod/UCspwAAAAAOgAAAAAIAACAAAADbld2vBcts/Xcs23Jr2109/LN9ERNLipLcoez0XT+KCCAAAAAJoYPOwN8r20Zcc6NYmt+fD8h5NejuzmsODYPHt0TCS0AAAABQDGQGflZ2y1ENmNylklW8ruas5j0vGRHyTTbWr3ty0e76U7NM9scFrJch6l6f2790fbjE/9VJhOIF4lJphOeb</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -43,6 +43,66 @@
           DTS:ConnectRetryCount="0"
           DTS:ConnectRetryInterval="0"
           DTS:ConnectionString="Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\Users\19133\Downloads\Global Superstore.xls;Extended Properties=&quot;EXCEL 8.0;HDR=YES&quot;;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Excel Connection Manager 1]"
+      DTS:CreationName="EXCEL"
+      DTS:DTSID="{1A769EEE-B2A9-4014-9D65-8F05009B4B73}"
+      DTS:ObjectName="Excel Connection Manager 1">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectRetryCount="0"
+          DTS:ConnectRetryInterval="0"
+          DTS:ConnectionString="Provider=Microsoft.Jet.OLEDB.4.0;Data Source=D:\TaiLieuDaiHoc\NamBa\KHII\DataWareHouse\TuHoc\Global_Superstore.xls;Extended Properties=&quot;Excel 8.0;HDR=YES&quot;;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Excel Connection Manager 2]"
+      DTS:CreationName="EXCEL"
+      DTS:DTSID="{60752D4B-34E3-4726-8A6C-8A623576AE6A}"
+      DTS:ObjectName="Excel Connection Manager 2">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectRetryCount="0"
+          DTS:ConnectRetryInterval="0"
+          DTS:ConnectionString="Provider=Microsoft.Jet.OLEDB.4.0;Data Source=D:\TaiLieuDaiHoc\NamBa\KHII\DataWareHouse\TuHoc\Global_Superstore.xls;Extended Properties=&quot;Excel 8.0;HDR=YES&quot;;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Excel Connection Manager 3]"
+      DTS:CreationName="EXCEL"
+      DTS:DTSID="{A535A0D2-9118-4ECE-8972-5EB90B97B705}"
+      DTS:ObjectName="Excel Connection Manager 3">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectRetryCount="0"
+          DTS:ConnectRetryInterval="0"
+          DTS:ConnectionString="Provider=Microsoft.Jet.OLEDB.4.0;Data Source=D:\TaiLieuDaiHoc\NamBa\KHII\DataWareHouse\TuHoc\Global_Superstore.xls;Extended Properties=&quot;Excel 8.0;HDR=YES&quot;;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Excel Connection Manager 4]"
+      DTS:CreationName="EXCEL"
+      DTS:DTSID="{56CC84BE-3111-4AA5-91D1-6064A4926CEF}"
+      DTS:ObjectName="Excel Connection Manager 4">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectRetryCount="0"
+          DTS:ConnectRetryInterval="0"
+          DTS:ConnectionString="Provider=Microsoft.Jet.OLEDB.4.0;Data Source=D:\TaiLieuDaiHoc\NamBa\KHII\DataWareHouse\TuHoc\Global_Superstore.xls;Extended Properties=&quot;Excel 8.0;HDR=YES&quot;;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Excel Connection Manager 5]"
+      DTS:CreationName="EXCEL"
+      DTS:DTSID="{A1BC3AC1-6790-4149-B9B4-AB9DC819A186}"
+      DTS:ObjectName="Excel Connection Manager 5">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectRetryCount="0"
+          DTS:ConnectRetryInterval="0"
+          DTS:ConnectionString="Provider=Microsoft.Jet.OLEDB.4.0;Data Source=D:\TaiLieuDaiHoc\NamBa\KHII\DataWareHouse\TuHoc\Global_Superstore.xls;Extended Properties=&quot;Excel 8.0;HDR=YES&quot;;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
   </DTS:ConnectionManagers>
@@ -362,8 +422,8 @@
               <connections>
                 <connection
                   refId="Package\Dim location\Excel Source.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[Excel Connection Manager]"
-                  connectionManagerRefId="Package.ConnectionManagers[Excel Connection Manager]"
+                  connectionManagerID="Package.ConnectionManagers[Excel Connection Manager 2]"
+                  connectionManagerRefId="Package.ConnectionManagers[Excel Connection Manager 2]"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
@@ -660,7 +720,8 @@
                       name="Country" />
                     <externalMetadataColumn
                       refId="Package\Dim location\Excel Source.Outputs[Excel Source Output].ExternalColumns[Postal Code]"
-                      dataType="r8"
+                      dataType="wstr"
+                      length="255"
                       name="Postal Code" />
                     <externalMetadataColumn
                       refId="Package\Dim location\Excel Source.Outputs[Excel Source Output].ExternalColumns[Market]"
@@ -789,7 +850,8 @@
                       name="Country" />
                     <outputColumn
                       refId="Package\Dim location\Excel Source.Outputs[Excel Source Error Output].Columns[Postal Code]"
-                      dataType="r8"
+                      dataType="wstr"
+                      length="255"
                       lineageId="Package\Dim location\Excel Source.Outputs[Excel Source Error Output].Columns[Postal Code]"
                       name="Postal Code" />
                     <outputColumn
@@ -2793,8 +2855,8 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
               <connections>
                 <connection
                   refId="Package\Dim time\Excel Source.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[Excel Connection Manager]"
-                  connectionManagerRefId="Package.ConnectionManagers[Excel Connection Manager]"
+                  connectionManagerID="Package.ConnectionManagers[Excel Connection Manager 1]"
+                  connectionManagerRefId="Package.ConnectionManagers[Excel Connection Manager 1]"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
@@ -2878,7 +2940,8 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
                       name="Country" />
                     <externalMetadataColumn
                       refId="Package\Dim time\Excel Source.Outputs[Excel Source Output].ExternalColumns[Postal Code]"
-                      dataType="r8"
+                      dataType="wstr"
+                      length="255"
                       name="Postal Code" />
                     <externalMetadataColumn
                       refId="Package\Dim time\Excel Source.Outputs[Excel Source Output].ExternalColumns[Market]"
@@ -4363,6 +4426,166 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
           version="1">
           <components>
             <component
+              refId="Package\DimCustomer\Aggregate"
+              componentClassID="Microsoft.Aggregate"
+              contactInfo="Aggregate;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;3"
+              description="Aggregates data with functions such as Average, Sum, Count, Max, and Min. For example, group data to compute the sum of sales per product or the average visits per day."
+              name="Aggregate"
+              version="3">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the approximate number of group by keys that the aggregation produces. Low indicates 500,000 key values, Medium indicates 5 million key values, and High indicates more than 25 million key values. Unspecified indicates no KeyScale value is used."
+                  name="KeyScale"
+                  typeConverter="KeyScaleType">0</property>
+                <property
+                  dataType="System.Null"
+                  description="Specifies the exact number of group by keys that the aggregation produces. If a KeyScale value is specified, the value in Keys takes precedence."
+                  name="Keys" />
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the approximate number of distinct values in a column that the aggregation counts distinctly. Low indicates 500,000 key values, Medium indicates 5 million key values, and High indicates more than 25 million key values. Unspecified indicates no CountDistinctScale value is used."
+                  name="CountDistinctScale"
+                  typeConverter="KeyScaleType">0</property>
+                <property
+                  dataType="System.Null"
+                  description="Specifies the exact number of distinct values in a column that the aggregation counts distinctly. If a CountDistinctScale value is specified, the value in CountDistinctKeys takes precedence."
+                  name="CountDistinctKeys" />
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the percentage by which memory can be extended during the aggregation. Valid values are between 1 and 100."
+                  name="AutoExtendFactor">25</property>
+              </properties>
+              <inputs>
+                <input
+                  refId="Package\DimCustomer\Aggregate.Inputs[Aggregate Input 1]"
+                  name="Aggregate Input 1">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\DimCustomer\Aggregate.Inputs[Aggregate Input 1].Columns[Customer ID]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="Customer ID"
+                      lineageId="Package\DimCustomer\Excel Source.Outputs[Excel Source Output].Columns[Customer ID]" />
+                    <inputColumn
+                      refId="Package\DimCustomer\Aggregate.Inputs[Aggregate Input 1].Columns[Customer Name]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="Customer Name"
+                      lineageId="Package\DimCustomer\Excel Source.Outputs[Excel Source Output].Columns[Customer Name]" />
+                    <inputColumn
+                      refId="Package\DimCustomer\Aggregate.Inputs[Aggregate Input 1].Columns[Segment]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="Segment"
+                      lineageId="Package\DimCustomer\Excel Source.Outputs[Excel Source Output].Columns[Segment]" />
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\DimCustomer\Aggregate.Outputs[Aggregate Output 1]"
+                  name="Aggregate Output 1">
+                  <properties>
+                    <property
+                      dataType="System.Int32"
+                      description="Specifies the approximate number of group by keys that the aggregation produces. Low indicates 500,000 key values, Medium indicates 5 million key values, and High indicates more than 25 million key values. Unspecified indicates no KeyScale value is used."
+                      name="KeyScale"
+                      typeConverter="KeyScaleType">0</property>
+                    <property
+                      dataType="System.Null"
+                      description="Specifies the exact number of group by keys that the aggregation produces. If a KeyScale value is specified, the value in Keys takes precedence."
+                      name="Keys" />
+                  </properties>
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\DimCustomer\Aggregate.Outputs[Aggregate Output 1].Columns[Customer ID]"
+                      dataType="wstr"
+                      length="255"
+                      lineageId="Package\DimCustomer\Aggregate.Outputs[Aggregate Output 1].Columns[Customer ID]"
+                      name="Customer ID">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the ID of the input column used in the aggregation."
+                          name="AggregationColumnId">#{Package\DimCustomer\Excel Source.Outputs[Excel Source Output].Columns[Customer ID]}</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the type of aggregation."
+                          name="AggregationType"
+                          typeConverter="AggregationType">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Indicates whether the column requires special handling because it may contain oversized data or it requires precision beyond a float data type."
+                          name="IsBig">1</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the string comparison options."
+                          name="AggregationComparisonFlags">0</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\DimCustomer\Aggregate.Outputs[Aggregate Output 1].Columns[Customer Name]"
+                      dataType="wstr"
+                      length="255"
+                      lineageId="Package\DimCustomer\Aggregate.Outputs[Aggregate Output 1].Columns[Customer Name]"
+                      name="Customer Name">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the ID of the input column used in the aggregation."
+                          name="AggregationColumnId">#{Package\DimCustomer\Excel Source.Outputs[Excel Source Output].Columns[Customer Name]}</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the type of aggregation."
+                          name="AggregationType"
+                          typeConverter="AggregationType">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Indicates whether the column requires special handling because it may contain oversized data or it requires precision beyond a float data type."
+                          name="IsBig">1</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the string comparison options."
+                          name="AggregationComparisonFlags">0</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\DimCustomer\Aggregate.Outputs[Aggregate Output 1].Columns[Segment]"
+                      dataType="wstr"
+                      length="255"
+                      lineageId="Package\DimCustomer\Aggregate.Outputs[Aggregate Output 1].Columns[Segment]"
+                      name="Segment">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the ID of the input column used in the aggregation."
+                          name="AggregationColumnId">#{Package\DimCustomer\Excel Source.Outputs[Excel Source Output].Columns[Segment]}</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the type of aggregation."
+                          name="AggregationType"
+                          typeConverter="AggregationType">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Indicates whether the column requires special handling because it may contain oversized data or it requires precision beyond a float data type."
+                          name="IsBig">1</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the string comparison options."
+                          name="AggregationComparisonFlags">0</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
               refId="Package\DimCustomer\Excel Source"
               componentClassID="Microsoft.ExcelSource"
               contactInfo="Excel Source;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
@@ -4378,7 +4601,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
                 <property
                   dataType="System.String"
                   description="Specifies the name of the database object used to open a rowset."
-                  name="OpenRowset"></property>
+                  name="OpenRowset">Orders$</property>
                 <property
                   dataType="System.String"
                   description="Specifies the variable that contains the name of the database object used to open a rowset."
@@ -4405,8 +4628,8 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
               <connections>
                 <connection
                   refId="Package\DimCustomer\Excel Source.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[Excel Connection Manager]"
-                  connectionManagerRefId="Package.ConnectionManagers[Excel Connection Manager]"
+                  connectionManagerID="Package.ConnectionManagers[Excel Connection Manager 4]"
+                  connectionManagerRefId="Package.ConnectionManagers[Excel Connection Manager 4]"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
@@ -4414,14 +4637,496 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
                 <output
                   refId="Package\DimCustomer\Excel Source.Outputs[Excel Source Output]"
                   name="Excel Source Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\DimCustomer\Excel Source.Outputs[Excel Source Output].Columns[Row ID]"
+                      dataType="r8"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\DimCustomer\Excel Source.Outputs[Excel Source Output].ExternalColumns[Row ID]"
+                      lineageId="Package\DimCustomer\Excel Source.Outputs[Excel Source Output].Columns[Row ID]"
+                      name="Row ID"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\DimCustomer\Excel Source.Outputs[Excel Source Output].Columns[Order ID]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\DimCustomer\Excel Source.Outputs[Excel Source Output].ExternalColumns[Order ID]"
+                      length="255"
+                      lineageId="Package\DimCustomer\Excel Source.Outputs[Excel Source Output].Columns[Order ID]"
+                      name="Order ID"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\DimCustomer\Excel Source.Outputs[Excel Source Output].Columns[Order Date]"
+                      dataType="date"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\DimCustomer\Excel Source.Outputs[Excel Source Output].ExternalColumns[Order Date]"
+                      lineageId="Package\DimCustomer\Excel Source.Outputs[Excel Source Output].Columns[Order Date]"
+                      name="Order Date"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\DimCustomer\Excel Source.Outputs[Excel Source Output].Columns[Ship Date]"
+                      dataType="date"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\DimCustomer\Excel Source.Outputs[Excel Source Output].ExternalColumns[Ship Date]"
+                      lineageId="Package\DimCustomer\Excel Source.Outputs[Excel Source Output].Columns[Ship Date]"
+                      name="Ship Date"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\DimCustomer\Excel Source.Outputs[Excel Source Output].Columns[Ship Mode]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\DimCustomer\Excel Source.Outputs[Excel Source Output].ExternalColumns[Ship Mode]"
+                      length="255"
+                      lineageId="Package\DimCustomer\Excel Source.Outputs[Excel Source Output].Columns[Ship Mode]"
+                      name="Ship Mode"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\DimCustomer\Excel Source.Outputs[Excel Source Output].Columns[Customer ID]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\DimCustomer\Excel Source.Outputs[Excel Source Output].ExternalColumns[Customer ID]"
+                      length="255"
+                      lineageId="Package\DimCustomer\Excel Source.Outputs[Excel Source Output].Columns[Customer ID]"
+                      name="Customer ID"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\DimCustomer\Excel Source.Outputs[Excel Source Output].Columns[Customer Name]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\DimCustomer\Excel Source.Outputs[Excel Source Output].ExternalColumns[Customer Name]"
+                      length="255"
+                      lineageId="Package\DimCustomer\Excel Source.Outputs[Excel Source Output].Columns[Customer Name]"
+                      name="Customer Name"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\DimCustomer\Excel Source.Outputs[Excel Source Output].Columns[Segment]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\DimCustomer\Excel Source.Outputs[Excel Source Output].ExternalColumns[Segment]"
+                      length="255"
+                      lineageId="Package\DimCustomer\Excel Source.Outputs[Excel Source Output].Columns[Segment]"
+                      name="Segment"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\DimCustomer\Excel Source.Outputs[Excel Source Output].Columns[City]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\DimCustomer\Excel Source.Outputs[Excel Source Output].ExternalColumns[City]"
+                      length="255"
+                      lineageId="Package\DimCustomer\Excel Source.Outputs[Excel Source Output].Columns[City]"
+                      name="City"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\DimCustomer\Excel Source.Outputs[Excel Source Output].Columns[State]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\DimCustomer\Excel Source.Outputs[Excel Source Output].ExternalColumns[State]"
+                      length="255"
+                      lineageId="Package\DimCustomer\Excel Source.Outputs[Excel Source Output].Columns[State]"
+                      name="State"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\DimCustomer\Excel Source.Outputs[Excel Source Output].Columns[Country]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\DimCustomer\Excel Source.Outputs[Excel Source Output].ExternalColumns[Country]"
+                      length="255"
+                      lineageId="Package\DimCustomer\Excel Source.Outputs[Excel Source Output].Columns[Country]"
+                      name="Country"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\DimCustomer\Excel Source.Outputs[Excel Source Output].Columns[Postal Code]"
+                      dataType="r8"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\DimCustomer\Excel Source.Outputs[Excel Source Output].ExternalColumns[Postal Code]"
+                      lineageId="Package\DimCustomer\Excel Source.Outputs[Excel Source Output].Columns[Postal Code]"
+                      name="Postal Code"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\DimCustomer\Excel Source.Outputs[Excel Source Output].Columns[Market]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\DimCustomer\Excel Source.Outputs[Excel Source Output].ExternalColumns[Market]"
+                      length="255"
+                      lineageId="Package\DimCustomer\Excel Source.Outputs[Excel Source Output].Columns[Market]"
+                      name="Market"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\DimCustomer\Excel Source.Outputs[Excel Source Output].Columns[Region]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\DimCustomer\Excel Source.Outputs[Excel Source Output].ExternalColumns[Region]"
+                      length="255"
+                      lineageId="Package\DimCustomer\Excel Source.Outputs[Excel Source Output].Columns[Region]"
+                      name="Region"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\DimCustomer\Excel Source.Outputs[Excel Source Output].Columns[Product ID]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\DimCustomer\Excel Source.Outputs[Excel Source Output].ExternalColumns[Product ID]"
+                      length="255"
+                      lineageId="Package\DimCustomer\Excel Source.Outputs[Excel Source Output].Columns[Product ID]"
+                      name="Product ID"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\DimCustomer\Excel Source.Outputs[Excel Source Output].Columns[Category]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\DimCustomer\Excel Source.Outputs[Excel Source Output].ExternalColumns[Category]"
+                      length="255"
+                      lineageId="Package\DimCustomer\Excel Source.Outputs[Excel Source Output].Columns[Category]"
+                      name="Category"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\DimCustomer\Excel Source.Outputs[Excel Source Output].Columns[Sub-Category]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\DimCustomer\Excel Source.Outputs[Excel Source Output].ExternalColumns[Sub-Category]"
+                      length="255"
+                      lineageId="Package\DimCustomer\Excel Source.Outputs[Excel Source Output].Columns[Sub-Category]"
+                      name="Sub-Category"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\DimCustomer\Excel Source.Outputs[Excel Source Output].Columns[Product Name]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\DimCustomer\Excel Source.Outputs[Excel Source Output].ExternalColumns[Product Name]"
+                      length="255"
+                      lineageId="Package\DimCustomer\Excel Source.Outputs[Excel Source Output].Columns[Product Name]"
+                      name="Product Name"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\DimCustomer\Excel Source.Outputs[Excel Source Output].Columns[Sales]"
+                      dataType="r8"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\DimCustomer\Excel Source.Outputs[Excel Source Output].ExternalColumns[Sales]"
+                      lineageId="Package\DimCustomer\Excel Source.Outputs[Excel Source Output].Columns[Sales]"
+                      name="Sales"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\DimCustomer\Excel Source.Outputs[Excel Source Output].Columns[Quantity]"
+                      dataType="r8"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\DimCustomer\Excel Source.Outputs[Excel Source Output].ExternalColumns[Quantity]"
+                      lineageId="Package\DimCustomer\Excel Source.Outputs[Excel Source Output].Columns[Quantity]"
+                      name="Quantity"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\DimCustomer\Excel Source.Outputs[Excel Source Output].Columns[Discount]"
+                      dataType="r8"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\DimCustomer\Excel Source.Outputs[Excel Source Output].ExternalColumns[Discount]"
+                      lineageId="Package\DimCustomer\Excel Source.Outputs[Excel Source Output].Columns[Discount]"
+                      name="Discount"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\DimCustomer\Excel Source.Outputs[Excel Source Output].Columns[Profit]"
+                      dataType="r8"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\DimCustomer\Excel Source.Outputs[Excel Source Output].ExternalColumns[Profit]"
+                      lineageId="Package\DimCustomer\Excel Source.Outputs[Excel Source Output].Columns[Profit]"
+                      name="Profit"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\DimCustomer\Excel Source.Outputs[Excel Source Output].Columns[Shipping Cost]"
+                      dataType="r8"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\DimCustomer\Excel Source.Outputs[Excel Source Output].ExternalColumns[Shipping Cost]"
+                      lineageId="Package\DimCustomer\Excel Source.Outputs[Excel Source Output].Columns[Shipping Cost]"
+                      name="Shipping Cost"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\DimCustomer\Excel Source.Outputs[Excel Source Output].Columns[Order Priority]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\DimCustomer\Excel Source.Outputs[Excel Source Output].ExternalColumns[Order Priority]"
+                      length="255"
+                      lineageId="Package\DimCustomer\Excel Source.Outputs[Excel Source Output].Columns[Order Priority]"
+                      name="Order Priority"
+                      truncationRowDisposition="FailComponent" />
+                  </outputColumns>
                   <externalMetadataColumns
-                    isUsed="True" />
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\DimCustomer\Excel Source.Outputs[Excel Source Output].ExternalColumns[Row ID]"
+                      dataType="r8"
+                      name="Row ID" />
+                    <externalMetadataColumn
+                      refId="Package\DimCustomer\Excel Source.Outputs[Excel Source Output].ExternalColumns[Order ID]"
+                      dataType="wstr"
+                      length="255"
+                      name="Order ID" />
+                    <externalMetadataColumn
+                      refId="Package\DimCustomer\Excel Source.Outputs[Excel Source Output].ExternalColumns[Order Date]"
+                      dataType="date"
+                      name="Order Date" />
+                    <externalMetadataColumn
+                      refId="Package\DimCustomer\Excel Source.Outputs[Excel Source Output].ExternalColumns[Ship Date]"
+                      dataType="date"
+                      name="Ship Date" />
+                    <externalMetadataColumn
+                      refId="Package\DimCustomer\Excel Source.Outputs[Excel Source Output].ExternalColumns[Ship Mode]"
+                      dataType="wstr"
+                      length="255"
+                      name="Ship Mode" />
+                    <externalMetadataColumn
+                      refId="Package\DimCustomer\Excel Source.Outputs[Excel Source Output].ExternalColumns[Customer ID]"
+                      dataType="wstr"
+                      length="255"
+                      name="Customer ID" />
+                    <externalMetadataColumn
+                      refId="Package\DimCustomer\Excel Source.Outputs[Excel Source Output].ExternalColumns[Customer Name]"
+                      dataType="wstr"
+                      length="255"
+                      name="Customer Name" />
+                    <externalMetadataColumn
+                      refId="Package\DimCustomer\Excel Source.Outputs[Excel Source Output].ExternalColumns[Segment]"
+                      dataType="wstr"
+                      length="255"
+                      name="Segment" />
+                    <externalMetadataColumn
+                      refId="Package\DimCustomer\Excel Source.Outputs[Excel Source Output].ExternalColumns[City]"
+                      dataType="wstr"
+                      length="255"
+                      name="City" />
+                    <externalMetadataColumn
+                      refId="Package\DimCustomer\Excel Source.Outputs[Excel Source Output].ExternalColumns[State]"
+                      dataType="wstr"
+                      length="255"
+                      name="State" />
+                    <externalMetadataColumn
+                      refId="Package\DimCustomer\Excel Source.Outputs[Excel Source Output].ExternalColumns[Country]"
+                      dataType="wstr"
+                      length="255"
+                      name="Country" />
+                    <externalMetadataColumn
+                      refId="Package\DimCustomer\Excel Source.Outputs[Excel Source Output].ExternalColumns[Postal Code]"
+                      dataType="wstr"
+                      length="255"
+                      name="Postal Code" />
+                    <externalMetadataColumn
+                      refId="Package\DimCustomer\Excel Source.Outputs[Excel Source Output].ExternalColumns[Market]"
+                      dataType="wstr"
+                      length="255"
+                      name="Market" />
+                    <externalMetadataColumn
+                      refId="Package\DimCustomer\Excel Source.Outputs[Excel Source Output].ExternalColumns[Region]"
+                      dataType="wstr"
+                      length="255"
+                      name="Region" />
+                    <externalMetadataColumn
+                      refId="Package\DimCustomer\Excel Source.Outputs[Excel Source Output].ExternalColumns[Product ID]"
+                      dataType="wstr"
+                      length="255"
+                      name="Product ID" />
+                    <externalMetadataColumn
+                      refId="Package\DimCustomer\Excel Source.Outputs[Excel Source Output].ExternalColumns[Category]"
+                      dataType="wstr"
+                      length="255"
+                      name="Category" />
+                    <externalMetadataColumn
+                      refId="Package\DimCustomer\Excel Source.Outputs[Excel Source Output].ExternalColumns[Sub-Category]"
+                      dataType="wstr"
+                      length="255"
+                      name="Sub-Category" />
+                    <externalMetadataColumn
+                      refId="Package\DimCustomer\Excel Source.Outputs[Excel Source Output].ExternalColumns[Product Name]"
+                      dataType="wstr"
+                      length="255"
+                      name="Product Name" />
+                    <externalMetadataColumn
+                      refId="Package\DimCustomer\Excel Source.Outputs[Excel Source Output].ExternalColumns[Sales]"
+                      dataType="r8"
+                      name="Sales" />
+                    <externalMetadataColumn
+                      refId="Package\DimCustomer\Excel Source.Outputs[Excel Source Output].ExternalColumns[Quantity]"
+                      dataType="r8"
+                      name="Quantity" />
+                    <externalMetadataColumn
+                      refId="Package\DimCustomer\Excel Source.Outputs[Excel Source Output].ExternalColumns[Discount]"
+                      dataType="r8"
+                      name="Discount" />
+                    <externalMetadataColumn
+                      refId="Package\DimCustomer\Excel Source.Outputs[Excel Source Output].ExternalColumns[Profit]"
+                      dataType="r8"
+                      name="Profit" />
+                    <externalMetadataColumn
+                      refId="Package\DimCustomer\Excel Source.Outputs[Excel Source Output].ExternalColumns[Shipping Cost]"
+                      dataType="r8"
+                      name="Shipping Cost" />
+                    <externalMetadataColumn
+                      refId="Package\DimCustomer\Excel Source.Outputs[Excel Source Output].ExternalColumns[Order Priority]"
+                      dataType="wstr"
+                      length="255"
+                      name="Order Priority" />
+                  </externalMetadataColumns>
                 </output>
                 <output
                   refId="Package\DimCustomer\Excel Source.Outputs[Excel Source Error Output]"
                   isErrorOut="true"
                   name="Excel Source Error Output">
                   <outputColumns>
+                    <outputColumn
+                      refId="Package\DimCustomer\Excel Source.Outputs[Excel Source Error Output].Columns[Row ID]"
+                      dataType="r8"
+                      lineageId="Package\DimCustomer\Excel Source.Outputs[Excel Source Error Output].Columns[Row ID]"
+                      name="Row ID" />
+                    <outputColumn
+                      refId="Package\DimCustomer\Excel Source.Outputs[Excel Source Error Output].Columns[Order ID]"
+                      dataType="wstr"
+                      length="255"
+                      lineageId="Package\DimCustomer\Excel Source.Outputs[Excel Source Error Output].Columns[Order ID]"
+                      name="Order ID" />
+                    <outputColumn
+                      refId="Package\DimCustomer\Excel Source.Outputs[Excel Source Error Output].Columns[Order Date]"
+                      dataType="date"
+                      lineageId="Package\DimCustomer\Excel Source.Outputs[Excel Source Error Output].Columns[Order Date]"
+                      name="Order Date" />
+                    <outputColumn
+                      refId="Package\DimCustomer\Excel Source.Outputs[Excel Source Error Output].Columns[Ship Date]"
+                      dataType="date"
+                      lineageId="Package\DimCustomer\Excel Source.Outputs[Excel Source Error Output].Columns[Ship Date]"
+                      name="Ship Date" />
+                    <outputColumn
+                      refId="Package\DimCustomer\Excel Source.Outputs[Excel Source Error Output].Columns[Ship Mode]"
+                      dataType="wstr"
+                      length="255"
+                      lineageId="Package\DimCustomer\Excel Source.Outputs[Excel Source Error Output].Columns[Ship Mode]"
+                      name="Ship Mode" />
+                    <outputColumn
+                      refId="Package\DimCustomer\Excel Source.Outputs[Excel Source Error Output].Columns[Customer ID]"
+                      dataType="wstr"
+                      length="255"
+                      lineageId="Package\DimCustomer\Excel Source.Outputs[Excel Source Error Output].Columns[Customer ID]"
+                      name="Customer ID" />
+                    <outputColumn
+                      refId="Package\DimCustomer\Excel Source.Outputs[Excel Source Error Output].Columns[Customer Name]"
+                      dataType="wstr"
+                      length="255"
+                      lineageId="Package\DimCustomer\Excel Source.Outputs[Excel Source Error Output].Columns[Customer Name]"
+                      name="Customer Name" />
+                    <outputColumn
+                      refId="Package\DimCustomer\Excel Source.Outputs[Excel Source Error Output].Columns[Segment]"
+                      dataType="wstr"
+                      length="255"
+                      lineageId="Package\DimCustomer\Excel Source.Outputs[Excel Source Error Output].Columns[Segment]"
+                      name="Segment" />
+                    <outputColumn
+                      refId="Package\DimCustomer\Excel Source.Outputs[Excel Source Error Output].Columns[City]"
+                      dataType="wstr"
+                      length="255"
+                      lineageId="Package\DimCustomer\Excel Source.Outputs[Excel Source Error Output].Columns[City]"
+                      name="City" />
+                    <outputColumn
+                      refId="Package\DimCustomer\Excel Source.Outputs[Excel Source Error Output].Columns[State]"
+                      dataType="wstr"
+                      length="255"
+                      lineageId="Package\DimCustomer\Excel Source.Outputs[Excel Source Error Output].Columns[State]"
+                      name="State" />
+                    <outputColumn
+                      refId="Package\DimCustomer\Excel Source.Outputs[Excel Source Error Output].Columns[Country]"
+                      dataType="wstr"
+                      length="255"
+                      lineageId="Package\DimCustomer\Excel Source.Outputs[Excel Source Error Output].Columns[Country]"
+                      name="Country" />
+                    <outputColumn
+                      refId="Package\DimCustomer\Excel Source.Outputs[Excel Source Error Output].Columns[Postal Code]"
+                      dataType="wstr"
+                      length="255"
+                      lineageId="Package\DimCustomer\Excel Source.Outputs[Excel Source Error Output].Columns[Postal Code]"
+                      name="Postal Code" />
+                    <outputColumn
+                      refId="Package\DimCustomer\Excel Source.Outputs[Excel Source Error Output].Columns[Market]"
+                      dataType="wstr"
+                      length="255"
+                      lineageId="Package\DimCustomer\Excel Source.Outputs[Excel Source Error Output].Columns[Market]"
+                      name="Market" />
+                    <outputColumn
+                      refId="Package\DimCustomer\Excel Source.Outputs[Excel Source Error Output].Columns[Region]"
+                      dataType="wstr"
+                      length="255"
+                      lineageId="Package\DimCustomer\Excel Source.Outputs[Excel Source Error Output].Columns[Region]"
+                      name="Region" />
+                    <outputColumn
+                      refId="Package\DimCustomer\Excel Source.Outputs[Excel Source Error Output].Columns[Product ID]"
+                      dataType="wstr"
+                      length="255"
+                      lineageId="Package\DimCustomer\Excel Source.Outputs[Excel Source Error Output].Columns[Product ID]"
+                      name="Product ID" />
+                    <outputColumn
+                      refId="Package\DimCustomer\Excel Source.Outputs[Excel Source Error Output].Columns[Category]"
+                      dataType="wstr"
+                      length="255"
+                      lineageId="Package\DimCustomer\Excel Source.Outputs[Excel Source Error Output].Columns[Category]"
+                      name="Category" />
+                    <outputColumn
+                      refId="Package\DimCustomer\Excel Source.Outputs[Excel Source Error Output].Columns[Sub-Category]"
+                      dataType="wstr"
+                      length="255"
+                      lineageId="Package\DimCustomer\Excel Source.Outputs[Excel Source Error Output].Columns[Sub-Category]"
+                      name="Sub-Category" />
+                    <outputColumn
+                      refId="Package\DimCustomer\Excel Source.Outputs[Excel Source Error Output].Columns[Product Name]"
+                      dataType="wstr"
+                      length="255"
+                      lineageId="Package\DimCustomer\Excel Source.Outputs[Excel Source Error Output].Columns[Product Name]"
+                      name="Product Name" />
+                    <outputColumn
+                      refId="Package\DimCustomer\Excel Source.Outputs[Excel Source Error Output].Columns[Sales]"
+                      dataType="r8"
+                      lineageId="Package\DimCustomer\Excel Source.Outputs[Excel Source Error Output].Columns[Sales]"
+                      name="Sales" />
+                    <outputColumn
+                      refId="Package\DimCustomer\Excel Source.Outputs[Excel Source Error Output].Columns[Quantity]"
+                      dataType="r8"
+                      lineageId="Package\DimCustomer\Excel Source.Outputs[Excel Source Error Output].Columns[Quantity]"
+                      name="Quantity" />
+                    <outputColumn
+                      refId="Package\DimCustomer\Excel Source.Outputs[Excel Source Error Output].Columns[Discount]"
+                      dataType="r8"
+                      lineageId="Package\DimCustomer\Excel Source.Outputs[Excel Source Error Output].Columns[Discount]"
+                      name="Discount" />
+                    <outputColumn
+                      refId="Package\DimCustomer\Excel Source.Outputs[Excel Source Error Output].Columns[Profit]"
+                      dataType="r8"
+                      lineageId="Package\DimCustomer\Excel Source.Outputs[Excel Source Error Output].Columns[Profit]"
+                      name="Profit" />
+                    <outputColumn
+                      refId="Package\DimCustomer\Excel Source.Outputs[Excel Source Error Output].Columns[Shipping Cost]"
+                      dataType="r8"
+                      lineageId="Package\DimCustomer\Excel Source.Outputs[Excel Source Error Output].Columns[Shipping Cost]"
+                      name="Shipping Cost" />
+                    <outputColumn
+                      refId="Package\DimCustomer\Excel Source.Outputs[Excel Source Error Output].Columns[Order Priority]"
+                      dataType="wstr"
+                      length="255"
+                      lineageId="Package\DimCustomer\Excel Source.Outputs[Excel Source Error Output].Columns[Order Priority]"
+                      name="Order Priority" />
                     <outputColumn
                       refId="Package\DimCustomer\Excel Source.Outputs[Excel Source Error Output].Columns[ErrorCode]"
                       dataType="i4"
@@ -4439,7 +5144,1398 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
                 </output>
               </outputs>
             </component>
+            <component
+              refId="Package\DimCustomer\OLE DB Destination"
+              componentClassID="Microsoft.OLEDBDestination"
+              contactInfo="OLE DB Destination;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;4"
+              description="OLE DB Destination"
+              name="OLE DB Destination"
+              usesDispositions="true"
+              version="4">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the name of the database object used to open a rowset."
+                  name="OpenRowset">[dbo].[DimCustomer]</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the variable that contains the name of the database object used to open a rowset."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="The SQL command to be executed."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the column code page to use when code page information is unavailable from the data source."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Forces the use of the DefaultCodePage property value when describing character data."
+                  name="AlwaysUseDefaultCodePage">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the mode used to access the database."
+                  name="AccessMode"
+                  typeConverter="AccessMode">3</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether the values supplied for identity columns will be copied to the destination. If false, values for identity columns will be auto-generated at the destination. Applies only if fast load is turned on."
+                  name="FastLoadKeepIdentity">false</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether the columns containing null will have null inserted in the destination. If false, columns containing null will have their default values inserted at the destination. Applies only if fast load is turned on."
+                  name="FastLoadKeepNulls">false</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies options to be used with fast load.  Applies only if fast load is turned on."
+                  name="FastLoadOptions">TABLOCK,CHECK_CONSTRAINTS</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies when commits are issued during data insertion.  A value of 0 specifies that one commit will be issued at the end of data insertion.  Applies only if fast load is turned on."
+                  name="FastLoadMaxInsertCommitSize">2147483647</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\DimCustomer\OLE DB Destination.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[ANHVAN.SuperstoreCube.sa]"
+                  connectionManagerRefId="Package.ConnectionManagers[ANHVAN.SuperstoreCube.sa]"
+                  description="The OLE DB runtime connection used to access the database."
+                  name="OleDbConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\DimCustomer\OLE DB Destination.Inputs[OLE DB Destination Input]"
+                  errorOrTruncationOperation="Insert"
+                  errorRowDisposition="FailComponent"
+                  hasSideEffects="true"
+                  name="OLE DB Destination Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\DimCustomer\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Segment]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="Segment"
+                      externalMetadataColumnId="Package\DimCustomer\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Segment]"
+                      lineageId="Package\DimCustomer\Sort.Outputs[Sort Output].Columns[Segment]" />
+                    <inputColumn
+                      refId="Package\DimCustomer\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Customer ID]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="Customer ID"
+                      cachedSortKeyPosition="1"
+                      externalMetadataColumnId="Package\DimCustomer\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[CustomerID]"
+                      lineageId="Package\DimCustomer\Sort.Outputs[Sort Output].Columns[Customer ID]" />
+                    <inputColumn
+                      refId="Package\DimCustomer\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Customer Name]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="Customer Name"
+                      externalMetadataColumnId="Package\DimCustomer\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[CustomerName]"
+                      lineageId="Package\DimCustomer\Sort.Outputs[Sort Output].Columns[Customer Name]" />
+                  </inputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\DimCustomer\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[CustomerID]"
+                      dataType="wstr"
+                      length="255"
+                      name="CustomerID" />
+                    <externalMetadataColumn
+                      refId="Package\DimCustomer\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[CustomerName]"
+                      dataType="wstr"
+                      length="255"
+                      name="CustomerName" />
+                    <externalMetadataColumn
+                      refId="Package\DimCustomer\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Segment]"
+                      dataType="wstr"
+                      length="255"
+                      name="Segment" />
+                  </externalMetadataColumns>
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\DimCustomer\OLE DB Destination.Outputs[OLE DB Destination Error Output]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="OLE DB Destination Error Output"
+                  synchronousInputId="Package\DimCustomer\OLE DB Destination.Inputs[OLE DB Destination Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\DimCustomer\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\DimCustomer\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\DimCustomer\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\DimCustomer\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\DimCustomer\Sort"
+              componentClassID="Microsoft.Sort"
+              contactInfo="Sort;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
+              description="Sorts input data in ascending or descending order when it cannot be sorted at its source. For example, sort sales data by 'customer id' before it is written to a flat file and delivered to another department. Note: We do not recommend this transformation for large data flows."
+              name="Sort"
+              version="1">
+              <properties>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether the Sort transformation removes rows with duplicate sort values."
+                  name="EliminateDuplicates">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the maximum number of threads to use for sorting."
+                  expressionType="Notify"
+                  name="MaximumThreads">-1</property>
+              </properties>
+              <inputs>
+                <input
+                  refId="Package\DimCustomer\Sort.Inputs[Sort Input]"
+                  name="Sort Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\DimCustomer\Sort.Inputs[Sort Input].Columns[Customer ID]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="Customer ID"
+                      lineageId="Package\DimCustomer\Aggregate.Outputs[Aggregate Output 1].Columns[Customer ID]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">1</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\DimCustomer\Sort.Inputs[Sort Input].Columns[Customer Name]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="Customer Name"
+                      lineageId="Package\DimCustomer\Aggregate.Outputs[Aggregate Output 1].Columns[Customer Name]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\DimCustomer\Sort.Inputs[Sort Input].Columns[Segment]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="Segment"
+                      lineageId="Package\DimCustomer\Aggregate.Outputs[Aggregate Output 1].Columns[Segment]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\DimCustomer\Sort.Outputs[Sort Output]"
+                  isSorted="true"
+                  name="Sort Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\DimCustomer\Sort.Outputs[Sort Output].Columns[Customer ID]"
+                      dataType="wstr"
+                      length="255"
+                      lineageId="Package\DimCustomer\Sort.Outputs[Sort Output].Columns[Customer ID]"
+                      name="Customer ID"
+                      sortKeyPosition="1">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\DimCustomer\Aggregate.Outputs[Aggregate Output 1].Columns[Customer ID]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\DimCustomer\Sort.Outputs[Sort Output].Columns[Customer Name]"
+                      dataType="wstr"
+                      length="255"
+                      lineageId="Package\DimCustomer\Sort.Outputs[Sort Output].Columns[Customer Name]"
+                      name="Customer Name">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\DimCustomer\Aggregate.Outputs[Aggregate Output 1].Columns[Customer Name]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\DimCustomer\Sort.Outputs[Sort Output].Columns[Segment]"
+                      dataType="wstr"
+                      length="255"
+                      lineageId="Package\DimCustomer\Sort.Outputs[Sort Output].Columns[Segment]"
+                      name="Segment">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\DimCustomer\Aggregate.Outputs[Aggregate Output 1].Columns[Segment]}</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
           </components>
+          <paths>
+            <path
+              refId="Package\DimCustomer.Paths[Aggregate Output 1]"
+              endId="Package\DimCustomer\Sort.Inputs[Sort Input]"
+              name="Aggregate Output 1"
+              startId="Package\DimCustomer\Aggregate.Outputs[Aggregate Output 1]" />
+            <path
+              refId="Package\DimCustomer.Paths[Excel Source Output]"
+              endId="Package\DimCustomer\Aggregate.Inputs[Aggregate Input 1]"
+              name="Excel Source Output"
+              startId="Package\DimCustomer\Excel Source.Outputs[Excel Source Output]" />
+            <path
+              refId="Package\DimCustomer.Paths[Sort Output]"
+              endId="Package\DimCustomer\OLE DB Destination.Inputs[OLE DB Destination Input]"
+              name="Sort Output"
+              startId="Package\DimCustomer\Sort.Outputs[Sort Output]" />
+          </paths>
+        </pipeline>
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\DimProduct"
+      DTS:CreationName="Microsoft.Pipeline"
+      DTS:Description="Data Flow Task"
+      DTS:DTSID="{BABEE583-38AA-4C31-A055-BB221385A069}"
+      DTS:ExecutableType="Microsoft.Pipeline"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="DimProduct"
+      DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <pipeline
+          version="1">
+          <components>
+            <component
+              refId="Package\DimProduct\Aggregate"
+              componentClassID="Microsoft.Aggregate"
+              contactInfo="Aggregate;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;3"
+              description="Aggregates data with functions such as Average, Sum, Count, Max, and Min. For example, group data to compute the sum of sales per product or the average visits per day."
+              name="Aggregate"
+              version="3">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the approximate number of group by keys that the aggregation produces. Low indicates 500,000 key values, Medium indicates 5 million key values, and High indicates more than 25 million key values. Unspecified indicates no KeyScale value is used."
+                  name="KeyScale"
+                  typeConverter="KeyScaleType">0</property>
+                <property
+                  dataType="System.Null"
+                  description="Specifies the exact number of group by keys that the aggregation produces. If a KeyScale value is specified, the value in Keys takes precedence."
+                  name="Keys" />
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the approximate number of distinct values in a column that the aggregation counts distinctly. Low indicates 500,000 key values, Medium indicates 5 million key values, and High indicates more than 25 million key values. Unspecified indicates no CountDistinctScale value is used."
+                  name="CountDistinctScale"
+                  typeConverter="KeyScaleType">0</property>
+                <property
+                  dataType="System.Null"
+                  description="Specifies the exact number of distinct values in a column that the aggregation counts distinctly. If a CountDistinctScale value is specified, the value in CountDistinctKeys takes precedence."
+                  name="CountDistinctKeys" />
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the percentage by which memory can be extended during the aggregation. Valid values are between 1 and 100."
+                  name="AutoExtendFactor">25</property>
+              </properties>
+              <inputs>
+                <input
+                  refId="Package\DimProduct\Aggregate.Inputs[Aggregate Input 1]"
+                  name="Aggregate Input 1">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\DimProduct\Aggregate.Inputs[Aggregate Input 1].Columns[Product ID]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="Product ID"
+                      lineageId="Package\DimProduct\Excel Source.Outputs[Excel Source Output].Columns[Product ID]" />
+                    <inputColumn
+                      refId="Package\DimProduct\Aggregate.Inputs[Aggregate Input 1].Columns[Category]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="Category"
+                      lineageId="Package\DimProduct\Excel Source.Outputs[Excel Source Output].Columns[Category]" />
+                    <inputColumn
+                      refId="Package\DimProduct\Aggregate.Inputs[Aggregate Input 1].Columns[Sub-Category]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="Sub-Category"
+                      lineageId="Package\DimProduct\Excel Source.Outputs[Excel Source Output].Columns[Sub-Category]" />
+                    <inputColumn
+                      refId="Package\DimProduct\Aggregate.Inputs[Aggregate Input 1].Columns[Product Name]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="Product Name"
+                      lineageId="Package\DimProduct\Excel Source.Outputs[Excel Source Output].Columns[Product Name]" />
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\DimProduct\Aggregate.Outputs[Aggregate Output 1]"
+                  name="Aggregate Output 1">
+                  <properties>
+                    <property
+                      dataType="System.Int32"
+                      description="Specifies the approximate number of group by keys that the aggregation produces. Low indicates 500,000 key values, Medium indicates 5 million key values, and High indicates more than 25 million key values. Unspecified indicates no KeyScale value is used."
+                      name="KeyScale"
+                      typeConverter="KeyScaleType">0</property>
+                    <property
+                      dataType="System.Null"
+                      description="Specifies the exact number of group by keys that the aggregation produces. If a KeyScale value is specified, the value in Keys takes precedence."
+                      name="Keys" />
+                  </properties>
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\DimProduct\Aggregate.Outputs[Aggregate Output 1].Columns[Product ID]"
+                      dataType="wstr"
+                      length="255"
+                      lineageId="Package\DimProduct\Aggregate.Outputs[Aggregate Output 1].Columns[Product ID]"
+                      name="Product ID">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the ID of the input column used in the aggregation."
+                          name="AggregationColumnId">#{Package\DimProduct\Excel Source.Outputs[Excel Source Output].Columns[Product ID]}</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the type of aggregation."
+                          name="AggregationType"
+                          typeConverter="AggregationType">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Indicates whether the column requires special handling because it may contain oversized data or it requires precision beyond a float data type."
+                          name="IsBig">1</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the string comparison options."
+                          name="AggregationComparisonFlags">0</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\DimProduct\Aggregate.Outputs[Aggregate Output 1].Columns[Category]"
+                      dataType="wstr"
+                      length="255"
+                      lineageId="Package\DimProduct\Aggregate.Outputs[Aggregate Output 1].Columns[Category]"
+                      name="Category">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the ID of the input column used in the aggregation."
+                          name="AggregationColumnId">#{Package\DimProduct\Excel Source.Outputs[Excel Source Output].Columns[Category]}</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the type of aggregation."
+                          name="AggregationType"
+                          typeConverter="AggregationType">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Indicates whether the column requires special handling because it may contain oversized data or it requires precision beyond a float data type."
+                          name="IsBig">1</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the string comparison options."
+                          name="AggregationComparisonFlags">0</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\DimProduct\Aggregate.Outputs[Aggregate Output 1].Columns[Sub-Category]"
+                      dataType="wstr"
+                      length="255"
+                      lineageId="Package\DimProduct\Aggregate.Outputs[Aggregate Output 1].Columns[Sub-Category]"
+                      name="Sub-Category">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the ID of the input column used in the aggregation."
+                          name="AggregationColumnId">#{Package\DimProduct\Excel Source.Outputs[Excel Source Output].Columns[Sub-Category]}</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the type of aggregation."
+                          name="AggregationType"
+                          typeConverter="AggregationType">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Indicates whether the column requires special handling because it may contain oversized data or it requires precision beyond a float data type."
+                          name="IsBig">1</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the string comparison options."
+                          name="AggregationComparisonFlags">0</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\DimProduct\Aggregate.Outputs[Aggregate Output 1].Columns[Product Name]"
+                      dataType="wstr"
+                      length="255"
+                      lineageId="Package\DimProduct\Aggregate.Outputs[Aggregate Output 1].Columns[Product Name]"
+                      name="Product Name">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the ID of the input column used in the aggregation."
+                          name="AggregationColumnId">#{Package\DimProduct\Excel Source.Outputs[Excel Source Output].Columns[Product Name]}</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the type of aggregation."
+                          name="AggregationType"
+                          typeConverter="AggregationType">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Indicates whether the column requires special handling because it may contain oversized data or it requires precision beyond a float data type."
+                          name="IsBig">1</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the string comparison options."
+                          name="AggregationComparisonFlags">0</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\DimProduct\Excel Source"
+              componentClassID="Microsoft.ExcelSource"
+              contactInfo="Excel Source;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
+              description="Excel Source"
+              name="Excel Source"
+              usesDispositions="true"
+              version="1">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the name of the database object used to open a rowset."
+                  name="OpenRowset">Orders$</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the variable that contains the name of the database object used to open a rowset."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="The SQL command to be executed."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                <property
+                  dataType="System.String"
+                  description="The variable that contains the SQL command to be executed."
+                  name="SqlCommandVariable"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the mode used to access the database."
+                  name="AccessMode"
+                  typeConverter="AccessMode">0</property>
+                <property
+                  dataType="System.String"
+                  description="The mapping from parameters in the SQL command to variables."
+                  name="ParameterMapping"></property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\DimProduct\Excel Source.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[Excel Connection Manager 5]"
+                  connectionManagerRefId="Package.ConnectionManagers[Excel Connection Manager 5]"
+                  description="The OLE DB runtime connection used to access the database."
+                  name="OleDbConnection" />
+              </connections>
+              <outputs>
+                <output
+                  refId="Package\DimProduct\Excel Source.Outputs[Excel Source Output]"
+                  name="Excel Source Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\DimProduct\Excel Source.Outputs[Excel Source Output].Columns[Row ID]"
+                      dataType="r8"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\DimProduct\Excel Source.Outputs[Excel Source Output].ExternalColumns[Row ID]"
+                      lineageId="Package\DimProduct\Excel Source.Outputs[Excel Source Output].Columns[Row ID]"
+                      name="Row ID"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\DimProduct\Excel Source.Outputs[Excel Source Output].Columns[Order ID]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\DimProduct\Excel Source.Outputs[Excel Source Output].ExternalColumns[Order ID]"
+                      length="255"
+                      lineageId="Package\DimProduct\Excel Source.Outputs[Excel Source Output].Columns[Order ID]"
+                      name="Order ID"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\DimProduct\Excel Source.Outputs[Excel Source Output].Columns[Order Date]"
+                      dataType="date"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\DimProduct\Excel Source.Outputs[Excel Source Output].ExternalColumns[Order Date]"
+                      lineageId="Package\DimProduct\Excel Source.Outputs[Excel Source Output].Columns[Order Date]"
+                      name="Order Date"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\DimProduct\Excel Source.Outputs[Excel Source Output].Columns[Ship Date]"
+                      dataType="date"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\DimProduct\Excel Source.Outputs[Excel Source Output].ExternalColumns[Ship Date]"
+                      lineageId="Package\DimProduct\Excel Source.Outputs[Excel Source Output].Columns[Ship Date]"
+                      name="Ship Date"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\DimProduct\Excel Source.Outputs[Excel Source Output].Columns[Ship Mode]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\DimProduct\Excel Source.Outputs[Excel Source Output].ExternalColumns[Ship Mode]"
+                      length="255"
+                      lineageId="Package\DimProduct\Excel Source.Outputs[Excel Source Output].Columns[Ship Mode]"
+                      name="Ship Mode"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\DimProduct\Excel Source.Outputs[Excel Source Output].Columns[Customer ID]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\DimProduct\Excel Source.Outputs[Excel Source Output].ExternalColumns[Customer ID]"
+                      length="255"
+                      lineageId="Package\DimProduct\Excel Source.Outputs[Excel Source Output].Columns[Customer ID]"
+                      name="Customer ID"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\DimProduct\Excel Source.Outputs[Excel Source Output].Columns[Customer Name]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\DimProduct\Excel Source.Outputs[Excel Source Output].ExternalColumns[Customer Name]"
+                      length="255"
+                      lineageId="Package\DimProduct\Excel Source.Outputs[Excel Source Output].Columns[Customer Name]"
+                      name="Customer Name"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\DimProduct\Excel Source.Outputs[Excel Source Output].Columns[Segment]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\DimProduct\Excel Source.Outputs[Excel Source Output].ExternalColumns[Segment]"
+                      length="255"
+                      lineageId="Package\DimProduct\Excel Source.Outputs[Excel Source Output].Columns[Segment]"
+                      name="Segment"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\DimProduct\Excel Source.Outputs[Excel Source Output].Columns[City]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\DimProduct\Excel Source.Outputs[Excel Source Output].ExternalColumns[City]"
+                      length="255"
+                      lineageId="Package\DimProduct\Excel Source.Outputs[Excel Source Output].Columns[City]"
+                      name="City"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\DimProduct\Excel Source.Outputs[Excel Source Output].Columns[State]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\DimProduct\Excel Source.Outputs[Excel Source Output].ExternalColumns[State]"
+                      length="255"
+                      lineageId="Package\DimProduct\Excel Source.Outputs[Excel Source Output].Columns[State]"
+                      name="State"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\DimProduct\Excel Source.Outputs[Excel Source Output].Columns[Country]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\DimProduct\Excel Source.Outputs[Excel Source Output].ExternalColumns[Country]"
+                      length="255"
+                      lineageId="Package\DimProduct\Excel Source.Outputs[Excel Source Output].Columns[Country]"
+                      name="Country"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\DimProduct\Excel Source.Outputs[Excel Source Output].Columns[Postal Code]"
+                      dataType="r8"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\DimProduct\Excel Source.Outputs[Excel Source Output].ExternalColumns[Postal Code]"
+                      lineageId="Package\DimProduct\Excel Source.Outputs[Excel Source Output].Columns[Postal Code]"
+                      name="Postal Code"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\DimProduct\Excel Source.Outputs[Excel Source Output].Columns[Market]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\DimProduct\Excel Source.Outputs[Excel Source Output].ExternalColumns[Market]"
+                      length="255"
+                      lineageId="Package\DimProduct\Excel Source.Outputs[Excel Source Output].Columns[Market]"
+                      name="Market"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\DimProduct\Excel Source.Outputs[Excel Source Output].Columns[Region]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\DimProduct\Excel Source.Outputs[Excel Source Output].ExternalColumns[Region]"
+                      length="255"
+                      lineageId="Package\DimProduct\Excel Source.Outputs[Excel Source Output].Columns[Region]"
+                      name="Region"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\DimProduct\Excel Source.Outputs[Excel Source Output].Columns[Product ID]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\DimProduct\Excel Source.Outputs[Excel Source Output].ExternalColumns[Product ID]"
+                      length="255"
+                      lineageId="Package\DimProduct\Excel Source.Outputs[Excel Source Output].Columns[Product ID]"
+                      name="Product ID"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\DimProduct\Excel Source.Outputs[Excel Source Output].Columns[Category]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\DimProduct\Excel Source.Outputs[Excel Source Output].ExternalColumns[Category]"
+                      length="255"
+                      lineageId="Package\DimProduct\Excel Source.Outputs[Excel Source Output].Columns[Category]"
+                      name="Category"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\DimProduct\Excel Source.Outputs[Excel Source Output].Columns[Sub-Category]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\DimProduct\Excel Source.Outputs[Excel Source Output].ExternalColumns[Sub-Category]"
+                      length="255"
+                      lineageId="Package\DimProduct\Excel Source.Outputs[Excel Source Output].Columns[Sub-Category]"
+                      name="Sub-Category"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\DimProduct\Excel Source.Outputs[Excel Source Output].Columns[Product Name]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\DimProduct\Excel Source.Outputs[Excel Source Output].ExternalColumns[Product Name]"
+                      length="255"
+                      lineageId="Package\DimProduct\Excel Source.Outputs[Excel Source Output].Columns[Product Name]"
+                      name="Product Name"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\DimProduct\Excel Source.Outputs[Excel Source Output].Columns[Sales]"
+                      dataType="r8"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\DimProduct\Excel Source.Outputs[Excel Source Output].ExternalColumns[Sales]"
+                      lineageId="Package\DimProduct\Excel Source.Outputs[Excel Source Output].Columns[Sales]"
+                      name="Sales"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\DimProduct\Excel Source.Outputs[Excel Source Output].Columns[Quantity]"
+                      dataType="r8"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\DimProduct\Excel Source.Outputs[Excel Source Output].ExternalColumns[Quantity]"
+                      lineageId="Package\DimProduct\Excel Source.Outputs[Excel Source Output].Columns[Quantity]"
+                      name="Quantity"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\DimProduct\Excel Source.Outputs[Excel Source Output].Columns[Discount]"
+                      dataType="r8"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\DimProduct\Excel Source.Outputs[Excel Source Output].ExternalColumns[Discount]"
+                      lineageId="Package\DimProduct\Excel Source.Outputs[Excel Source Output].Columns[Discount]"
+                      name="Discount"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\DimProduct\Excel Source.Outputs[Excel Source Output].Columns[Profit]"
+                      dataType="r8"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\DimProduct\Excel Source.Outputs[Excel Source Output].ExternalColumns[Profit]"
+                      lineageId="Package\DimProduct\Excel Source.Outputs[Excel Source Output].Columns[Profit]"
+                      name="Profit"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\DimProduct\Excel Source.Outputs[Excel Source Output].Columns[Shipping Cost]"
+                      dataType="r8"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\DimProduct\Excel Source.Outputs[Excel Source Output].ExternalColumns[Shipping Cost]"
+                      lineageId="Package\DimProduct\Excel Source.Outputs[Excel Source Output].Columns[Shipping Cost]"
+                      name="Shipping Cost"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\DimProduct\Excel Source.Outputs[Excel Source Output].Columns[Order Priority]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\DimProduct\Excel Source.Outputs[Excel Source Output].ExternalColumns[Order Priority]"
+                      length="255"
+                      lineageId="Package\DimProduct\Excel Source.Outputs[Excel Source Output].Columns[Order Priority]"
+                      name="Order Priority"
+                      truncationRowDisposition="FailComponent" />
+                  </outputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\DimProduct\Excel Source.Outputs[Excel Source Output].ExternalColumns[Row ID]"
+                      dataType="r8"
+                      name="Row ID" />
+                    <externalMetadataColumn
+                      refId="Package\DimProduct\Excel Source.Outputs[Excel Source Output].ExternalColumns[Order ID]"
+                      dataType="wstr"
+                      length="255"
+                      name="Order ID" />
+                    <externalMetadataColumn
+                      refId="Package\DimProduct\Excel Source.Outputs[Excel Source Output].ExternalColumns[Order Date]"
+                      dataType="date"
+                      name="Order Date" />
+                    <externalMetadataColumn
+                      refId="Package\DimProduct\Excel Source.Outputs[Excel Source Output].ExternalColumns[Ship Date]"
+                      dataType="date"
+                      name="Ship Date" />
+                    <externalMetadataColumn
+                      refId="Package\DimProduct\Excel Source.Outputs[Excel Source Output].ExternalColumns[Ship Mode]"
+                      dataType="wstr"
+                      length="255"
+                      name="Ship Mode" />
+                    <externalMetadataColumn
+                      refId="Package\DimProduct\Excel Source.Outputs[Excel Source Output].ExternalColumns[Customer ID]"
+                      dataType="wstr"
+                      length="255"
+                      name="Customer ID" />
+                    <externalMetadataColumn
+                      refId="Package\DimProduct\Excel Source.Outputs[Excel Source Output].ExternalColumns[Customer Name]"
+                      dataType="wstr"
+                      length="255"
+                      name="Customer Name" />
+                    <externalMetadataColumn
+                      refId="Package\DimProduct\Excel Source.Outputs[Excel Source Output].ExternalColumns[Segment]"
+                      dataType="wstr"
+                      length="255"
+                      name="Segment" />
+                    <externalMetadataColumn
+                      refId="Package\DimProduct\Excel Source.Outputs[Excel Source Output].ExternalColumns[City]"
+                      dataType="wstr"
+                      length="255"
+                      name="City" />
+                    <externalMetadataColumn
+                      refId="Package\DimProduct\Excel Source.Outputs[Excel Source Output].ExternalColumns[State]"
+                      dataType="wstr"
+                      length="255"
+                      name="State" />
+                    <externalMetadataColumn
+                      refId="Package\DimProduct\Excel Source.Outputs[Excel Source Output].ExternalColumns[Country]"
+                      dataType="wstr"
+                      length="255"
+                      name="Country" />
+                    <externalMetadataColumn
+                      refId="Package\DimProduct\Excel Source.Outputs[Excel Source Output].ExternalColumns[Postal Code]"
+                      dataType="wstr"
+                      length="255"
+                      name="Postal Code" />
+                    <externalMetadataColumn
+                      refId="Package\DimProduct\Excel Source.Outputs[Excel Source Output].ExternalColumns[Market]"
+                      dataType="wstr"
+                      length="255"
+                      name="Market" />
+                    <externalMetadataColumn
+                      refId="Package\DimProduct\Excel Source.Outputs[Excel Source Output].ExternalColumns[Region]"
+                      dataType="wstr"
+                      length="255"
+                      name="Region" />
+                    <externalMetadataColumn
+                      refId="Package\DimProduct\Excel Source.Outputs[Excel Source Output].ExternalColumns[Product ID]"
+                      dataType="wstr"
+                      length="255"
+                      name="Product ID" />
+                    <externalMetadataColumn
+                      refId="Package\DimProduct\Excel Source.Outputs[Excel Source Output].ExternalColumns[Category]"
+                      dataType="wstr"
+                      length="255"
+                      name="Category" />
+                    <externalMetadataColumn
+                      refId="Package\DimProduct\Excel Source.Outputs[Excel Source Output].ExternalColumns[Sub-Category]"
+                      dataType="wstr"
+                      length="255"
+                      name="Sub-Category" />
+                    <externalMetadataColumn
+                      refId="Package\DimProduct\Excel Source.Outputs[Excel Source Output].ExternalColumns[Product Name]"
+                      dataType="wstr"
+                      length="255"
+                      name="Product Name" />
+                    <externalMetadataColumn
+                      refId="Package\DimProduct\Excel Source.Outputs[Excel Source Output].ExternalColumns[Sales]"
+                      dataType="r8"
+                      name="Sales" />
+                    <externalMetadataColumn
+                      refId="Package\DimProduct\Excel Source.Outputs[Excel Source Output].ExternalColumns[Quantity]"
+                      dataType="r8"
+                      name="Quantity" />
+                    <externalMetadataColumn
+                      refId="Package\DimProduct\Excel Source.Outputs[Excel Source Output].ExternalColumns[Discount]"
+                      dataType="r8"
+                      name="Discount" />
+                    <externalMetadataColumn
+                      refId="Package\DimProduct\Excel Source.Outputs[Excel Source Output].ExternalColumns[Profit]"
+                      dataType="r8"
+                      name="Profit" />
+                    <externalMetadataColumn
+                      refId="Package\DimProduct\Excel Source.Outputs[Excel Source Output].ExternalColumns[Shipping Cost]"
+                      dataType="r8"
+                      name="Shipping Cost" />
+                    <externalMetadataColumn
+                      refId="Package\DimProduct\Excel Source.Outputs[Excel Source Output].ExternalColumns[Order Priority]"
+                      dataType="wstr"
+                      length="255"
+                      name="Order Priority" />
+                  </externalMetadataColumns>
+                </output>
+                <output
+                  refId="Package\DimProduct\Excel Source.Outputs[Excel Source Error Output]"
+                  isErrorOut="true"
+                  name="Excel Source Error Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\DimProduct\Excel Source.Outputs[Excel Source Error Output].Columns[Row ID]"
+                      dataType="r8"
+                      lineageId="Package\DimProduct\Excel Source.Outputs[Excel Source Error Output].Columns[Row ID]"
+                      name="Row ID" />
+                    <outputColumn
+                      refId="Package\DimProduct\Excel Source.Outputs[Excel Source Error Output].Columns[Order ID]"
+                      dataType="wstr"
+                      length="255"
+                      lineageId="Package\DimProduct\Excel Source.Outputs[Excel Source Error Output].Columns[Order ID]"
+                      name="Order ID" />
+                    <outputColumn
+                      refId="Package\DimProduct\Excel Source.Outputs[Excel Source Error Output].Columns[Order Date]"
+                      dataType="date"
+                      lineageId="Package\DimProduct\Excel Source.Outputs[Excel Source Error Output].Columns[Order Date]"
+                      name="Order Date" />
+                    <outputColumn
+                      refId="Package\DimProduct\Excel Source.Outputs[Excel Source Error Output].Columns[Ship Date]"
+                      dataType="date"
+                      lineageId="Package\DimProduct\Excel Source.Outputs[Excel Source Error Output].Columns[Ship Date]"
+                      name="Ship Date" />
+                    <outputColumn
+                      refId="Package\DimProduct\Excel Source.Outputs[Excel Source Error Output].Columns[Ship Mode]"
+                      dataType="wstr"
+                      length="255"
+                      lineageId="Package\DimProduct\Excel Source.Outputs[Excel Source Error Output].Columns[Ship Mode]"
+                      name="Ship Mode" />
+                    <outputColumn
+                      refId="Package\DimProduct\Excel Source.Outputs[Excel Source Error Output].Columns[Customer ID]"
+                      dataType="wstr"
+                      length="255"
+                      lineageId="Package\DimProduct\Excel Source.Outputs[Excel Source Error Output].Columns[Customer ID]"
+                      name="Customer ID" />
+                    <outputColumn
+                      refId="Package\DimProduct\Excel Source.Outputs[Excel Source Error Output].Columns[Customer Name]"
+                      dataType="wstr"
+                      length="255"
+                      lineageId="Package\DimProduct\Excel Source.Outputs[Excel Source Error Output].Columns[Customer Name]"
+                      name="Customer Name" />
+                    <outputColumn
+                      refId="Package\DimProduct\Excel Source.Outputs[Excel Source Error Output].Columns[Segment]"
+                      dataType="wstr"
+                      length="255"
+                      lineageId="Package\DimProduct\Excel Source.Outputs[Excel Source Error Output].Columns[Segment]"
+                      name="Segment" />
+                    <outputColumn
+                      refId="Package\DimProduct\Excel Source.Outputs[Excel Source Error Output].Columns[City]"
+                      dataType="wstr"
+                      length="255"
+                      lineageId="Package\DimProduct\Excel Source.Outputs[Excel Source Error Output].Columns[City]"
+                      name="City" />
+                    <outputColumn
+                      refId="Package\DimProduct\Excel Source.Outputs[Excel Source Error Output].Columns[State]"
+                      dataType="wstr"
+                      length="255"
+                      lineageId="Package\DimProduct\Excel Source.Outputs[Excel Source Error Output].Columns[State]"
+                      name="State" />
+                    <outputColumn
+                      refId="Package\DimProduct\Excel Source.Outputs[Excel Source Error Output].Columns[Country]"
+                      dataType="wstr"
+                      length="255"
+                      lineageId="Package\DimProduct\Excel Source.Outputs[Excel Source Error Output].Columns[Country]"
+                      name="Country" />
+                    <outputColumn
+                      refId="Package\DimProduct\Excel Source.Outputs[Excel Source Error Output].Columns[Postal Code]"
+                      dataType="wstr"
+                      length="255"
+                      lineageId="Package\DimProduct\Excel Source.Outputs[Excel Source Error Output].Columns[Postal Code]"
+                      name="Postal Code" />
+                    <outputColumn
+                      refId="Package\DimProduct\Excel Source.Outputs[Excel Source Error Output].Columns[Market]"
+                      dataType="wstr"
+                      length="255"
+                      lineageId="Package\DimProduct\Excel Source.Outputs[Excel Source Error Output].Columns[Market]"
+                      name="Market" />
+                    <outputColumn
+                      refId="Package\DimProduct\Excel Source.Outputs[Excel Source Error Output].Columns[Region]"
+                      dataType="wstr"
+                      length="255"
+                      lineageId="Package\DimProduct\Excel Source.Outputs[Excel Source Error Output].Columns[Region]"
+                      name="Region" />
+                    <outputColumn
+                      refId="Package\DimProduct\Excel Source.Outputs[Excel Source Error Output].Columns[Product ID]"
+                      dataType="wstr"
+                      length="255"
+                      lineageId="Package\DimProduct\Excel Source.Outputs[Excel Source Error Output].Columns[Product ID]"
+                      name="Product ID" />
+                    <outputColumn
+                      refId="Package\DimProduct\Excel Source.Outputs[Excel Source Error Output].Columns[Category]"
+                      dataType="wstr"
+                      length="255"
+                      lineageId="Package\DimProduct\Excel Source.Outputs[Excel Source Error Output].Columns[Category]"
+                      name="Category" />
+                    <outputColumn
+                      refId="Package\DimProduct\Excel Source.Outputs[Excel Source Error Output].Columns[Sub-Category]"
+                      dataType="wstr"
+                      length="255"
+                      lineageId="Package\DimProduct\Excel Source.Outputs[Excel Source Error Output].Columns[Sub-Category]"
+                      name="Sub-Category" />
+                    <outputColumn
+                      refId="Package\DimProduct\Excel Source.Outputs[Excel Source Error Output].Columns[Product Name]"
+                      dataType="wstr"
+                      length="255"
+                      lineageId="Package\DimProduct\Excel Source.Outputs[Excel Source Error Output].Columns[Product Name]"
+                      name="Product Name" />
+                    <outputColumn
+                      refId="Package\DimProduct\Excel Source.Outputs[Excel Source Error Output].Columns[Sales]"
+                      dataType="r8"
+                      lineageId="Package\DimProduct\Excel Source.Outputs[Excel Source Error Output].Columns[Sales]"
+                      name="Sales" />
+                    <outputColumn
+                      refId="Package\DimProduct\Excel Source.Outputs[Excel Source Error Output].Columns[Quantity]"
+                      dataType="r8"
+                      lineageId="Package\DimProduct\Excel Source.Outputs[Excel Source Error Output].Columns[Quantity]"
+                      name="Quantity" />
+                    <outputColumn
+                      refId="Package\DimProduct\Excel Source.Outputs[Excel Source Error Output].Columns[Discount]"
+                      dataType="r8"
+                      lineageId="Package\DimProduct\Excel Source.Outputs[Excel Source Error Output].Columns[Discount]"
+                      name="Discount" />
+                    <outputColumn
+                      refId="Package\DimProduct\Excel Source.Outputs[Excel Source Error Output].Columns[Profit]"
+                      dataType="r8"
+                      lineageId="Package\DimProduct\Excel Source.Outputs[Excel Source Error Output].Columns[Profit]"
+                      name="Profit" />
+                    <outputColumn
+                      refId="Package\DimProduct\Excel Source.Outputs[Excel Source Error Output].Columns[Shipping Cost]"
+                      dataType="r8"
+                      lineageId="Package\DimProduct\Excel Source.Outputs[Excel Source Error Output].Columns[Shipping Cost]"
+                      name="Shipping Cost" />
+                    <outputColumn
+                      refId="Package\DimProduct\Excel Source.Outputs[Excel Source Error Output].Columns[Order Priority]"
+                      dataType="wstr"
+                      length="255"
+                      lineageId="Package\DimProduct\Excel Source.Outputs[Excel Source Error Output].Columns[Order Priority]"
+                      name="Order Priority" />
+                    <outputColumn
+                      refId="Package\DimProduct\Excel Source.Outputs[Excel Source Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\DimProduct\Excel Source.Outputs[Excel Source Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\DimProduct\Excel Source.Outputs[Excel Source Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\DimProduct\Excel Source.Outputs[Excel Source Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\DimProduct\OLE DB Destination"
+              componentClassID="Microsoft.OLEDBDestination"
+              contactInfo="OLE DB Destination;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;4"
+              description="OLE DB Destination"
+              name="OLE DB Destination"
+              usesDispositions="true"
+              version="4">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the name of the database object used to open a rowset."
+                  name="OpenRowset">[dbo].[DimProduct]</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the variable that contains the name of the database object used to open a rowset."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="The SQL command to be executed."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the column code page to use when code page information is unavailable from the data source."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Forces the use of the DefaultCodePage property value when describing character data."
+                  name="AlwaysUseDefaultCodePage">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the mode used to access the database."
+                  name="AccessMode"
+                  typeConverter="AccessMode">3</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether the values supplied for identity columns will be copied to the destination. If false, values for identity columns will be auto-generated at the destination. Applies only if fast load is turned on."
+                  name="FastLoadKeepIdentity">false</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether the columns containing null will have null inserted in the destination. If false, columns containing null will have their default values inserted at the destination. Applies only if fast load is turned on."
+                  name="FastLoadKeepNulls">false</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies options to be used with fast load.  Applies only if fast load is turned on."
+                  name="FastLoadOptions">TABLOCK,CHECK_CONSTRAINTS</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies when commits are issued during data insertion.  A value of 0 specifies that one commit will be issued at the end of data insertion.  Applies only if fast load is turned on."
+                  name="FastLoadMaxInsertCommitSize">2147483647</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\DimProduct\OLE DB Destination.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[ANHVAN.SuperstoreCube.sa]"
+                  connectionManagerRefId="Package.ConnectionManagers[ANHVAN.SuperstoreCube.sa]"
+                  description="The OLE DB runtime connection used to access the database."
+                  name="OleDbConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\DimProduct\OLE DB Destination.Inputs[OLE DB Destination Input]"
+                  errorOrTruncationOperation="Insert"
+                  errorRowDisposition="FailComponent"
+                  hasSideEffects="true"
+                  name="OLE DB Destination Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\DimProduct\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Category]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="Category"
+                      externalMetadataColumnId="Package\DimProduct\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Category]"
+                      lineageId="Package\DimProduct\Sort.Outputs[Sort Output].Columns[Category]" />
+                    <inputColumn
+                      refId="Package\DimProduct\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Product ID]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="Product ID"
+                      cachedSortKeyPosition="1"
+                      externalMetadataColumnId="Package\DimProduct\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[ProductID]"
+                      lineageId="Package\DimProduct\Sort.Outputs[Sort Output].Columns[Product ID]" />
+                    <inputColumn
+                      refId="Package\DimProduct\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Sub-Category]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="Sub-Category"
+                      externalMetadataColumnId="Package\DimProduct\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[SubCategory]"
+                      lineageId="Package\DimProduct\Sort.Outputs[Sort Output].Columns[Sub-Category]" />
+                    <inputColumn
+                      refId="Package\DimProduct\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Product Name]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="Product Name"
+                      externalMetadataColumnId="Package\DimProduct\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[ProductName]"
+                      lineageId="Package\DimProduct\Sort.Outputs[Sort Output].Columns[Product Name]" />
+                  </inputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\DimProduct\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[ProductID]"
+                      dataType="wstr"
+                      length="255"
+                      name="ProductID" />
+                    <externalMetadataColumn
+                      refId="Package\DimProduct\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Category]"
+                      dataType="wstr"
+                      length="255"
+                      name="Category" />
+                    <externalMetadataColumn
+                      refId="Package\DimProduct\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[SubCategory]"
+                      dataType="wstr"
+                      length="255"
+                      name="SubCategory" />
+                    <externalMetadataColumn
+                      refId="Package\DimProduct\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[ProductName]"
+                      dataType="wstr"
+                      length="255"
+                      name="ProductName" />
+                  </externalMetadataColumns>
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\DimProduct\OLE DB Destination.Outputs[OLE DB Destination Error Output]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="OLE DB Destination Error Output"
+                  synchronousInputId="Package\DimProduct\OLE DB Destination.Inputs[OLE DB Destination Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\DimProduct\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\DimProduct\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\DimProduct\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\DimProduct\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\DimProduct\Sort"
+              componentClassID="Microsoft.Sort"
+              contactInfo="Sort;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
+              description="Sorts input data in ascending or descending order when it cannot be sorted at its source. For example, sort sales data by 'customer id' before it is written to a flat file and delivered to another department. Note: We do not recommend this transformation for large data flows."
+              name="Sort"
+              version="1">
+              <properties>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether the Sort transformation removes rows with duplicate sort values."
+                  name="EliminateDuplicates">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the maximum number of threads to use for sorting."
+                  expressionType="Notify"
+                  name="MaximumThreads">-1</property>
+              </properties>
+              <inputs>
+                <input
+                  refId="Package\DimProduct\Sort.Inputs[Sort Input]"
+                  name="Sort Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\DimProduct\Sort.Inputs[Sort Input].Columns[Product ID]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="Product ID"
+                      lineageId="Package\DimProduct\Aggregate.Outputs[Aggregate Output 1].Columns[Product ID]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">1</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\DimProduct\Sort.Inputs[Sort Input].Columns[Category]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="Category"
+                      lineageId="Package\DimProduct\Aggregate.Outputs[Aggregate Output 1].Columns[Category]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\DimProduct\Sort.Inputs[Sort Input].Columns[Sub-Category]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="Sub-Category"
+                      lineageId="Package\DimProduct\Aggregate.Outputs[Aggregate Output 1].Columns[Sub-Category]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\DimProduct\Sort.Inputs[Sort Input].Columns[Product Name]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="Product Name"
+                      lineageId="Package\DimProduct\Aggregate.Outputs[Aggregate Output 1].Columns[Product Name]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\DimProduct\Sort.Outputs[Sort Output]"
+                  isSorted="true"
+                  name="Sort Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\DimProduct\Sort.Outputs[Sort Output].Columns[Product ID]"
+                      dataType="wstr"
+                      length="255"
+                      lineageId="Package\DimProduct\Sort.Outputs[Sort Output].Columns[Product ID]"
+                      name="Product ID"
+                      sortKeyPosition="1">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\DimProduct\Aggregate.Outputs[Aggregate Output 1].Columns[Product ID]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\DimProduct\Sort.Outputs[Sort Output].Columns[Category]"
+                      dataType="wstr"
+                      length="255"
+                      lineageId="Package\DimProduct\Sort.Outputs[Sort Output].Columns[Category]"
+                      name="Category">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\DimProduct\Aggregate.Outputs[Aggregate Output 1].Columns[Category]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\DimProduct\Sort.Outputs[Sort Output].Columns[Sub-Category]"
+                      dataType="wstr"
+                      length="255"
+                      lineageId="Package\DimProduct\Sort.Outputs[Sort Output].Columns[Sub-Category]"
+                      name="Sub-Category">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\DimProduct\Aggregate.Outputs[Aggregate Output 1].Columns[Sub-Category]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\DimProduct\Sort.Outputs[Sort Output].Columns[Product Name]"
+                      dataType="wstr"
+                      length="255"
+                      lineageId="Package\DimProduct\Sort.Outputs[Sort Output].Columns[Product Name]"
+                      name="Product Name">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\DimProduct\Aggregate.Outputs[Aggregate Output 1].Columns[Product Name]}</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+          </components>
+          <paths>
+            <path
+              refId="Package\DimProduct.Paths[Aggregate Output 1]"
+              endId="Package\DimProduct\Sort.Inputs[Sort Input]"
+              name="Aggregate Output 1"
+              startId="Package\DimProduct\Aggregate.Outputs[Aggregate Output 1]" />
+            <path
+              refId="Package\DimProduct.Paths[Excel Source Output]"
+              endId="Package\DimProduct\Aggregate.Inputs[Aggregate Input 1]"
+              name="Excel Source Output"
+              startId="Package\DimProduct\Excel Source.Outputs[Excel Source Output]" />
+            <path
+              refId="Package\DimProduct.Paths[Sort Output]"
+              endId="Package\DimProduct\OLE DB Destination.Inputs[OLE DB Destination Input]"
+              name="Sort Output"
+              startId="Package\DimProduct\Sort.Outputs[Sort Output]" />
+          </paths>
         </pipeline>
       </DTS:ObjectData>
     </DTS:Executable>
@@ -4461,6 +6557,14 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
       DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint 1"
       DTS:To="Package\DimCustomer" />
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Constraint 2]"
+      DTS:CreationName=""
+      DTS:DTSID="{77E99B54-59D6-4FD8-9D8B-6466722E3B6A}"
+      DTS:From="Package\DimCustomer"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Constraint 2"
+      DTS:To="Package\DimProduct" />
   </DTS:PrecedenceConstraints>
   <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
 <!--This CDATA section contains the layout information of the package. The section includes information such as (x,y) coordinates, width, and height.-->
@@ -4482,6 +6586,10 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
           Size="120.8,41.6"
           Id="Package\Dim time"
           TopLeft="64.2857153804935,39.0000005469603" />
+        <NodeLayout
+          Size="141.6,41.6"
+          Id="Package\DimCustomer"
+          TopLeft="268.571433145173,126.176472357813" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint]"
           TopLeft="185.085715380493,61.7117652796544">
@@ -4504,36 +6612,70 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="141.6,41.6"
-          Id="Package\DimCustomer"
-          TopLeft="267.857147418723,126.176472357813" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 1]"
           TopLeft="329.114290154224,84.4235300123485">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="9.54285726449905,41.7529423454642"
+              EndConnector="10.257142990949,41.7529423454645"
               Start="0,0"
-              End="9.54285726449905,34.2529423454642">
+              End="10.257142990949,34.2529423454645">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,16.8764711727321" />
+                    End="0,16.8764711727323" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,16.8764711727321"
-                    Point2="0,20.8764711727321"
-                    Point3="4,20.8764711727321" />
+                    Point1="0,16.8764711727323"
+                    Point2="0,20.8764711727323"
+                    Point3="4,20.8764711727323" />
                   <mssgle:LineSegment
-                    End="5.54285726449905,20.8764711727321" />
+                    End="6.25714299094898,20.8764711727323" />
                   <mssgle:CubicBezierSegment
-                    Point1="5.54285726449905,20.8764711727321"
-                    Point2="9.54285726449905,20.8764711727321"
-                    Point3="9.54285726449905,24.8764711727321" />
+                    Point1="6.25714299094898,20.8764711727323"
+                    Point2="10.257142990949,20.8764711727323"
+                    Point3="10.257142990949,24.8764711727323" />
                   <mssgle:LineSegment
-                    End="9.54285726449905,34.2529423454642" />
+                    End="10.257142990949,34.2529423454645" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="132.8,41.6"
+          Id="Package\DimProduct"
+          TopLeft="264.285718786473,205.705885237888" />
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 2]"
+          TopLeft="339.371433145173,167.776472357813">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-8.68571435869967,37.9294128800755"
+              Start="0,0"
+              End="-8.68571435869967,30.4294128800755">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,14.9647064400377" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,14.9647064400377"
+                    Point2="0,18.9647064400377"
+                    Point3="-4,18.9647064400377" />
+                  <mssgle:LineSegment
+                    End="-4.68571435869967,18.9647064400377" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-4.68571435869967,18.9647064400377"
+                    Point2="-8.68571435869967,18.9647064400377"
+                    Point3="-8.68571435869967,22.9647064400377" />
+                  <mssgle:LineSegment
+                    End="-8.68571435869967,30.4294128800755" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -4871,13 +7013,245 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
     design-time-name="Package\DimCustomer">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph">
+        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
           Size="138.4,41.6"
           Id="Package\DimCustomer\Excel Source"
           TopLeft="116,47" />
+        <NodeLayout
+          Size="126.4,41.6"
+          Id="Package\DimCustomer\Aggregate"
+          TopLeft="338.571434337266,52.0000007292804" />
+        <EdgeLayout
+          Id="Package\DimCustomer.Paths[Excel Source Output]"
+          TopLeft="254.4,70.3000003646402">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="84.1714343372658,0"
+              Start="0,0"
+              End="76.6714343372658,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="76.6714343372658,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="97.6,41.6"
+          Id="Package\DimCustomer\Sort"
+          TopLeft="346.428577328215,138.411766647055" />
+        <EdgeLayout
+          Id="Package\DimCustomer.Paths[Aggregate Output 1]"
+          TopLeft="398.50000583274,93.6000007292804">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,44.8117659177747"
+              Start="0,0"
+              End="0,37.3117659177747">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,37.3117659177747" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="170.4,41.6"
+          Id="Package\DimCustomer\OLE DB Destination"
+          TopLeft="110.500001788139,136.264707716279" />
+        <EdgeLayout
+          Id="Package\DimCustomer.Paths[Sort Output]"
+          TopLeft="346.428577328215,158.138237181667">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-65.5285755400756,0"
+              Start="0,0"
+              End="-58.0285755400756,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="-58.0285755400756,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\DimCustomer\Excel Source">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\DimCustomer\OLE DB Destination">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <TaskHost
+    design-time-name="Package\DimProduct">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        <NodeLayout
+          Size="138.4,41.6"
+          Id="Package\DimProduct\Excel Source"
+          TopLeft="135.769230769231,61.7692307692308" />
+        <NodeLayout
+          Size="126.4,41.6"
+          Id="Package\DimProduct\Aggregate"
+          TopLeft="323.961538461538,62.4230769230769" />
+        <NodeLayout
+          Size="97.6,41.6"
+          Id="Package\DimProduct\Sort"
+          TopLeft="513.076923076923,62.3076923076923" />
+        <EdgeLayout
+          Id="Package\DimProduct.Paths[Excel Source Output]"
+          TopLeft="274.169230769231,82.8961538461539">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="49.7923076923076,0"
+              Start="0,0"
+              End="42.2923076923076,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="42.2923076923076,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\DimProduct.Paths[Aggregate Output 1]"
+          TopLeft="450.361538461538,83.1653846153846">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="62.7153846153844,0"
+              Start="0,0"
+              End="55.2153846153844,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="55.2153846153844,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="170.4,41.6"
+          Id="Package\DimProduct\OLE DB Destination"
+          TopLeft="130.769230769231,136.923076923077" />
+        <EdgeLayout
+          Id="Package\DimProduct.Paths[Sort Output]"
+          TopLeft="561.876923076923,103.907692307692">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-345.907692307692,33.0153846153846"
+              Start="0,0"
+              End="-345.907692307692,25.5153846153846">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,12.5076923076923" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,12.5076923076923"
+                    Point2="0,16.5076923076923"
+                    Point3="-4,16.5076923076923" />
+                  <mssgle:LineSegment
+                    End="-341.907692307692,16.5076923076923" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-341.907692307692,16.5076923076923"
+                    Point2="-345.907692307692,16.5076923076923"
+                    Point3="-345.907692307692,20.5076923076923" />
+                  <mssgle:LineSegment
+                    End="-345.907692307692,25.5153846153846" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\DimProduct\Excel Source">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\DimProduct\OLE DB Destination">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
 </Objects>]]></DTS:DesignTimeProperties>
 </DTS:Executable>
